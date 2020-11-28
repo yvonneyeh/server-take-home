@@ -13,10 +13,10 @@ https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-wi
 2. Once Postgres is installed, you'll need to create a database for this exercise. Please name the database 'server_take_home'. From psql, you'd need to so something like:
 
 ```
-psql // To launch the postgres terminal
-create table server_take_home // To create the database
-\q // Exit the terminal
-psql -d server_take_home // to relaunch the terminal, but connected specifically to your new database. 
+psql                                    // To launch the postgres terminal
+create table server_take_home           // To create the database
+\q                                      // Exit the terminal
+psql -d server_take_home                // to relaunch the terminal, but connected specifically to your new database. 
 ```
 
 3. Once you have the database created, you're ready to run the server. Navigate back to the root directory, and run:
@@ -25,7 +25,7 @@ node bin/www
 ```
 If all goes well, you should see a message that the server running on port 3000. Navigate to localhost:3000/ and you'll see a blank express template. 
 ```
-Express server listening on port: 3000 // it worked!!
+Express server listening on port: 3000  // it worked!!
 ```
 
 4. Finally, you'll need a way to send GET requests to the server. We recommend Postman (https://www.postman.com/) but feel free to use an alternative if you prefer. From your Postman or your API Client of choice, try hitting the /creator endpoint:
