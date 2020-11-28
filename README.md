@@ -23,7 +23,7 @@ psql -d server_take_home                // to relaunch the terminal, but connect
 ```
 node bin/www
 ```
-If all goes well, you should see a message that the server running on port 3000. Navigate to localhost:3000/ and you'll see a blank express template. 
+If all goes well, you should see a message that the server running on port 3000. Navigate to http://localhost:3000/ and you'll see a blank express template. 
 ```
 Express server listening on port: 3000  // it worked!!
 ```
