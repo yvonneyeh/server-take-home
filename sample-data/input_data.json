@@ -1,0 +1,160 @@
+[
+  {
+    "model": "Creator",
+    "data": {
+      "firstname": "Tim",
+      "lastname": "Lenardo"
+    }
+  },
+  {
+    "model": "Creator",
+    "data": {
+      "firstname": "JJ",
+      "lastname": "Maxwell"
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "US",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "CA",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "CA",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "MX",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "MX",
+      "user_id": 1
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "US",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "US",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "US",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "US",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "CA",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "CA",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "android",
+      "country": "MX",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "Install",
+    "data": {
+      "platform": "ios",
+      "country": "MX",
+      "user_id": 2
+    }
+  }
+]
