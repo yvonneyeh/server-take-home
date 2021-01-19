@@ -17,7 +17,7 @@ if (!global.hasOwnProperty('db')) {
 
     global.db.Creator.hasMany(global.db.Install, {
         onDelete: 'cascade',
-        foreignKey: 'user_id',
+        foreignKey: 'creator_id',
     });
 
     // global.db.Install.belongsTo(global.db.Campaign, {
