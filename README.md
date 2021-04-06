@@ -14,7 +14,7 @@ https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-wi
 
 ```
 psql                                    // To launch the postgres terminal
-create table server_take_home           // To create the database
+create database server_take_home        // To create the database
 \q                                      // Exit the terminal
 psql -d server_take_home                // to relaunch the terminal, but connected specifically to your new database. 
 ```
