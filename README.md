@@ -14,7 +14,8 @@ https://docs.timescale.com/timescaledb/latest/how-to-guides/connecting/psql/
 
 ```
 psql postgres                           // To launch the postgres terminal
-create database server_take_home        // To create the database
+create database server_take_home;       // To create the database
+create user postgres                    // To create the user needed to access the database
 \q                                      // Exit the terminal
 psql -d server_take_home                // to relaunch the terminal, but connected specifically to your new database.
 ```
