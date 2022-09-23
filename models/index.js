@@ -11,11 +11,6 @@ if (!global.hasOwnProperty('db')) {
         Campaign: require(__dirname + '/campaign')(sequelize, Sequelize.DataTypes),
         Media: require(__dirname + '/media')(sequelize, Sequelize.DataTypes),
         Publisher: require(__dirname + '/publisher')(sequelize, Sequelize.DataTypes),
-        /*
-        *
-        * TODO add any additional models here.
-        *
-        */
         
     };
 
@@ -38,9 +33,4 @@ if (!global.hasOwnProperty('db')) {
         foreignKey: 'media_id',
         foriegnKey: 'campaign_id'
     });
-    /*
-    *
-    * TODO add any additional relationships between models here.
-    *
-    */
 }
