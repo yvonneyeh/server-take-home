@@ -1,3 +1,11 @@
+# Notes on Coding Challenge
+
+1. Prior to starting: briefly reviewed the code, added some changes to the README based on my installation experience.
+2. Upon receiving instructions, read the Notion doc and reviewed the Figma mock-ups, determined what classes would be needed for implementation
+  - Data Model
+3. Read some docs about [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics/) (first time using it)
+
+
 # JetFuel Server Take Home Exercise
 
 This is a backend exercise that will give you the chance to see what kind of things we build at JetFuel!
