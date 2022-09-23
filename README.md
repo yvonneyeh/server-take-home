@@ -2,9 +2,14 @@
 
 1. Prior to starting: briefly reviewed the code, added some changes to the README based on my installation experience.
 2. Upon receiving instructions, read the Notion doc and reviewed the Figma mock-ups, determined what classes would be needed for implementation
-  - Data Model
+  
+    Data Model
+    ![Data Model](https://raw.githubusercontent.com/yvonneyeh/server-take-home/main/data-model.png)
 3. Read some docs about [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics/) (first time using it)
-
+4. Wrote endpoints needed to render the main `offers` feed.
+5. For the endpoint to remove a campaign from a publisher at some point in the future, some options considered:
+    - Cron job (external)
+    - In-app scheduler (server side)
 
 # JetFuel Server Take Home Exercise
 

@@ -9,7 +9,8 @@ if (!global.hasOwnProperty('db')) {
         Creator: require(__dirname + '/creator')(sequelize, Sequelize.DataTypes),
         Install: require(__dirname + '/install')(sequelize, Sequelize.DataTypes),
         Campaign: require(__dirname + '/campaign')(sequelize, Sequelize.DataTypes),
-        Media: require(__dirname + '/media')(sequelize, Sequelize.DataTypes)
+        Media: require(__dirname + '/media')(sequelize, Sequelize.DataTypes),
+        Publisher: require(__dirname + '/publisher')(sequelize, Sequelize.DataTypes),
         /*
         *
         * TODO add any additional models here.
@@ -23,13 +24,18 @@ if (!global.hasOwnProperty('db')) {
         foreignKey: 'creator_id',
     });
 
-    // global.db.Install.belongsTo(global.db.Campaign, {
-    //     onDelete: 'cascade',
-    //     foreignKey: 'campaign_id',
-    // });
+    global.db.Install.belongsTo(global.db.Campaign, {
+        onDelete: 'cascade',
+        foreignKey: 'campaign_id',
+    });
 
     global.db.Creator.hasMany(global.db.Campaign,{
         foreignKey: 'creator_id',
+        foriegnKey: 'campaign_id'
+    });
+
+    global.db.Media.hasMany(global.db.Campaign,{
+        foreignKey: 'media_id',
         foriegnKey: 'campaign_id'
     });
     /*
